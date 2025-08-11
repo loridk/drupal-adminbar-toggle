@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font: 14px/1.35 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+main { padding: 14px; width: 280px; }
+h1 { margin: 0 0 10px; font-size: 16px; }
+button {
+    display: inline-block;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #fff;
+}
+button:hover { background: #f6f6f6; }
+#status { margin-top: 10px; min-height: 1.2em; color: #555; }
+details { margin-top: 8px; }
+code { background: #f2f2f2; padding: 1px 4px; border-radius: 4px; }

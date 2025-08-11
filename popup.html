@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Drupal Admin Bar Toggle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+<main>
+    <h1>Drupal Bar</h1>
+    <button id="toggle">Hide admin bar</button>
+    <p id="status" role="status" aria-live="polite"></p>
+    <details>
+        <summary>What it hides</summary>
+        <small>
+            Targets <code>#toolbar-administration</code>, <code>#toolbar-bar</code> and <code>.gin-secondary-toolbar</code> and resets top offset classes.
+        </small>
+    </details>
+</main>
+<script src="popup.js" defer></script>
+</body>
+</html>
