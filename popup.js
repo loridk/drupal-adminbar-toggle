@@ -60,10 +60,10 @@ async function setIconForActiveTab(isHidden) {
     await chrome.action.setIcon({
       tabId: tab.id,
       path: {
-        16: isHidden ? "icons/icon-16-off.png" : "icons/icon-16.png",
-        32: isHidden ? "icons/icon-32-off.png" : "icons/icon-32.png",
-        48: isHidden ? "icons/icon-48-off.png" : "icons/icon-48.png",
-        128: isHidden ? "icons/icon-128-off.png" : "icons/icon-128.png"
+        16: isHidden ? "icons/icon-off-16.png" : "icons/icon-16.png",
+        32: isHidden ? "icons/icon-off-32.png" : "icons/icon-32.png",
+        48: isHidden ? "icons/icon-off-48.png" : "icons/icon-48.png",
+        128: isHidden ? "icons/icon-off-128.png" : "icons/icon-128.png"
       }
     });
   } catch (e) {
