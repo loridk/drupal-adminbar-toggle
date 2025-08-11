@@ -3,10 +3,10 @@ async function setIcon(tabId, hidden) {
         await chrome.action.setIcon({
             tabId,
             path: {
-                16: hidden ? "icons/icon-16-off.png" : "icons/icon-16.png",
-                32: hidden ? "icons/icon-32-off.png" : "icons/icon-32.png",
-                48: hidden ? "icons/icon-48-off.png" : "icons/icon-48.png",
-                128: hidden ? "icons/icon-128-off.png" : "icons/icon-128.png"
+                16: hidden ? "icons/icon-off-16.png" : "icons/icon-16.png",
+                32: hidden ? "icons/icon-off-32.png" : "icons/icon-32.png",
+                48: hidden ? "icons/icon-off-48.png" : "icons/icon-48.png",
+                128: hidden ? "icons/icon-off-128.png" : "icons/icon-128.png"
             }
         });
     } catch (e) {}
